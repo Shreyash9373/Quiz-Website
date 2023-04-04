@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Website-By Shreyas Raut</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-div">
+        <div class="inner-div">
+            <span class="testtimerclass" id="testtimer"></span>
+            <span id="questiontimer">timer</span>
+            <h2 class="question">Question comes over here</h2>
+            <ul>
+                <li>
+                    <!-- For input type=radio,if we want to choose one option at time we should give same name to all the input type=radio -->
+                    <input type="radio" name="answer" id="ans1" class="answer">
+                    <label for="ans1" class="option" id="Option1">Option</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" id="ans2" class="answer">
+                    <label for="ans2" class="option" id="Option2">Option</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" id="ans3" class="answer">
+                    <label for="ans3" class="option" id="Option3">Option</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" id="ans4" class="answer">
+                    <label for="ans4" class="option" id="Option4">Option</label>
+                </li>
+            </ul>
+            <button id="previous">Previous</button>
+            <button id="submit">Submit</button>
+            <button id="next">Next</button>
+        </div>
+        <div id="showscore" class="scorearea"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
