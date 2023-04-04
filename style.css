@@ -26,7 +26,7 @@ html{
 .inner-div h2{
     font-size: 3rem;
     font-weight: 500;
-    margin-top: 2rem;
+    margin-top: 1rem;
     margin-bottom: 1rem;
 }
 .inner-div li{
@@ -44,7 +44,7 @@ input{
     border-radius: 1rem;
     display: flex;
     background-color: rgb(33, 173, 234);
-    margin-top: -51px;
+    margin-top: -62px;
     margin-left: 171px;
 
 }
@@ -64,7 +64,7 @@ input{
     border-radius: 1rem;
     display: flex;
     background-color: rgb(33, 173, 234);
-    margin-top: -53px;
+    margin-top: -61px;
     margin-left: 330px;
 
 }
